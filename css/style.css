@@ -1,0 +1,43 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-size: 21px;
+}
+
+/* styles and typography */
+header {
+    background-color: rgb(66, 66, 66);
+    color: antiquewhite;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.intro {
+    text-align: center;
+    width: 60%;
+    margin: 10% auto;
+
+}
+
+.intro > img {
+    margin: 0 auto;
+    display: block;
+    max-width: 90%; /* adjust this value to your desired size */
+  }
+
+.productos {
+    background-color: rgb(66, 66, 66);
+    color: antiquewhite;
+    display: flex;
+    text-align: center;
+}
+
+.producto {
+    margin: 10px 13px;
+}
+
+footer {
+    border: solid grey ;
+    padding: 20px;
+    display: flex;
+}
